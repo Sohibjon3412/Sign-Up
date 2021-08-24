@@ -52,6 +52,7 @@ body {
   border-radius: 5px;
   margin-top: 20px;
   margin-left: 40px;
+  padding-left: 25px;
   
 }
 .inputs::placeholder {
@@ -59,10 +60,16 @@ body {
   line-height: 26px;
   color: #3D3B48;
   opacity: 0.75;
-  padding: 15px 32px;
+}
+.inputs:focus{
+  border: none;
+  border-radius: 5pt;
+  box-shadow: 0 0 0 1pt #5e54a4;
+  outline: none;
+  transition: .1s;
 }
 .claim-div {
-  padding: 40px 40px 8px 40px;
+  padding: 20px 20px 8px 40px;
 }
 .claim-link {
   font-size: 15px;
@@ -73,6 +80,7 @@ body {
   border-radius: 5px;
   padding: 15px 144px;
   text-decoration: none;
+  border: none;
 }
 .laster-text {
   font-size: 11px;
