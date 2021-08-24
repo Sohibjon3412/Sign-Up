@@ -24,13 +24,19 @@
           <div class="free-btn">
             <a class="free-button" href="#">Try it free 7 days then $20/mo. thereafter</a>
           </div>
-          <div class="input-sec row ">
-            <input class="inputs" type="text" placeholder="First Name">
-            <input class="inputs" type="text" placeholder="Last Name">
-            <input class="inputs" type="email" placeholder="Email Address">
-            <input class="inputs" type="password" placeholder="Password">
-            <div class="claim-div"><a class="claim-link" href="#">CLAIM YOUR FREE TRIAL</a></div>
-            <p class="laster-text">By clicking the button, you are agreeing to our <a class="conditions" href="#">Terms and Services</a></p>
+          <form class="input-sec row " action="https://echo.htmlacademy.ru/" method="get">
+            <input class="inputs" name="First-name" type="text" placeholder="First Name" required>
+            <input class="inputs" name="Last-name" type="text" placeholder="Last Name" required>
+            <input class="inputs" name="Email-Address" type="email" placeholder="Email Address" required>
+            <input class="inputs" name="Password" type="password" placeholder="Password" required>
+            <div class="claim-div">
+              <button class="claim-link"type="submit">
+                CLAIM YOUR FREE TRIAL
+              </button>
+            </div>
+            <p class="laster-text">By clicking the button, you are agreeing to our <a class="conditions" href="#">Terms and Services</a></p>            
+          </form>
+          <div >
           </div>
         </div>
       </div>
